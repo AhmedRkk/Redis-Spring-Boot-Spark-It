@@ -1,0 +1,25 @@
+***********
+get list
+http://localhost:9090/CacheList/newList
+post list
+http://localhost:9090/CacheList?key=newList&value=element2
+
+
+****************
+
+post hash cache
+http://localhost:9090/HCache?value=rekik&key=newHcache
+get 
+http://localhost:9090/HCache/newHcache
+
+***********************
+post json 
+{
+    "nom":"ahmed rekik",
+    "age":24,
+    "ville":"sfax"
+}
+http://localhost:9090/CacheJson?key=user
+
+get json
+http://localhost:9090/CacheJson?key=user
